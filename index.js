@@ -44,6 +44,7 @@ module.exports = {
     '@typescript-eslint/array-type': 2,
     '@typescript-eslint/ban-ts-ignore': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/member-delimiter-style': [2, {
       multiline: {
         delimiter: 'comma',

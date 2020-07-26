@@ -41,10 +41,9 @@ module.exports = {
   },
 
   rules: {
+    '@typescript-eslint/array-type': 2,
     '@typescript-eslint/ban-ts-ignore': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
-    '@typescript-eslint/no-explicit-any': 0,
-    '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/member-delimiter-style': [2, {
       multiline: {
         delimiter: 'comma',
@@ -55,5 +54,13 @@ module.exports = {
         requireLast: false,
       },
     }],
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/no-non-null-assertion': 0,
+    '@typescript-eslint/no-unused-vars': [2, {
+      vars: 'all',
+      args: 'after-used',
+      ignoreRestSiblings: false,
+    }],
+    '@typescript-eslint/prefer-optional-chain': 2,
   },
 }

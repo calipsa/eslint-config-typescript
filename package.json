@@ -23,15 +23,15 @@
   },
   "homepage": "https://github.com/calipsa/eslint-config-typescript#readme",
   "dependencies": {
-    "@calipsa/eslint-config": "^1.23.0",
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
+    "@calipsa/eslint-config": "^1.24.0",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
+    "eslint": "^7.24.0",
     "np": "^7.4.0",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.4"
   }
 }
